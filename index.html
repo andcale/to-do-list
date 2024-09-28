@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="/src/style.css">
 </head>
 <body>
-    <main>
-        <div id="newlist">
-            <h1>Crie Sua lista de Tarefas!</h1>
-            <p>Digite o que deseja adicionar:</p>
-            <input type="text" id="input" placeholder="A fazer...">
-            <button id="button">Adicionar</button>
-            <ul id="items-list">
-              
-            </ul>
+    <main>    
+        <div id="container">
+            <div id="tittle">
+                <img src="/src/assets/lista-de-afazeres.png" alt="icone-lista" id="list-icon" >
+                <h1>Crie sua lista de tarefas</h1>                
+            </div>    
+            <div id="content">
+                <p>Digite o que deseja adicionar:</p>
+                <input type="text" id="input" placeholder="A fazer...">
+                <button id="button">+</button>
+                <ul id="items-list"></ul>
+            </div>
         </div>
     </main>
     <script src="/src/script.js">      
