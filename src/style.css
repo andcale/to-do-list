@@ -10,6 +10,7 @@ body{
     background-color: rgb(12, 12, 12);
     background-image: linear-gradient(to left,#1a0e24, #382635);
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
