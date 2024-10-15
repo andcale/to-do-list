@@ -63,6 +63,7 @@ document.addEventListener('click', function(e) {
     const el = e.target;
     if(el.classList.contains('apagar')){   // Se ao clicar no elemento especificado (target) tiver a classe 'apagar', é removido o elemento pai.
         el.parentElement.remove();
+        salvarTarefas()
     }
     
 })
