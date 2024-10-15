@@ -36,7 +36,7 @@ body{
     align-items: center;
 }
 h1{
-    font-size: 32px;
+    font-size: 26px;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
 }
@@ -54,7 +54,7 @@ input{
 }
 .btn-addTarefa{
     font-weight: bold;
-    width: 50px;
+    width: 35px;
     padding: 5px 5px;    
     border-radius: 6px;   
     background-color: rgba(67, 244, 3, 0.483); 
